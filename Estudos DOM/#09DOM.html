@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background: rgb(171, 241, 206);
+            color: rgb(17, 16, 15);
+            font: normal 18pt arial;
+        }
+    </style>
+</head>
+<body>
+    <h1>INICIANDO ESTUDO DOM</h1>
+    <P>Aqui vai o resultado</P>
+    <p>Aprendendo a usar o <strong>DOM</strong> em JavaScript</p>
+    <div id="msg">Clique em Mim</div> 
+        <script>
+            var corpo = document.body
+            var p1 = document.getElementsByTagName('p')[1] /* entre [] o numero 1 significa o segudo paragrafo 
+            <P>Aqui vai o resultado</P> PRIMEIRO PARAGRAFO
+            <p>Aprendendo a usar o <strong>DOM</strong> em JavaScript</p> SEGUNDO PARAGRAFO */
+
+            /*document.write('está escrito assim: ' + p1.innerHTML) */
+            // pode-se usar selecionador da forma abaixo POR ID
+            /*var d = document.getElementByid('msg')
+            d.style.backgrond = 'blue'    MARCAÇÃO DE ESTILO
+            d.innerText = 'Estou aguardando...'      PODE-SE USAR O innerHTML, para ler os estlos do texto*/
+
+            var d = document.querySelector('div#msg') //para chamar uma id se usa #, Para chamar uma class se usa .
+            d.style.color = 'blue'
+            // ao inves de usar div id="msg"> podemos usar div class="msg"> document.getElementsByClassName
+            // document.querySelector PODE SUBSTITUIR OS OUTROS MÉTODOS.
+        </script>
+</body>
+</html>
