@@ -1,0 +1,28 @@
+body {
+    background: rgb(181, 230, 104);
+    font: normal 18px arial;
+}
+
+header {
+    color: white;
+    text-align: center; /**/
+}
+section {
+    background:  white;
+    border-radius: 10px; /*borda arredondada caixa*/
+    padding: 15px; /*preenchimento, largura*/
+    width: 400px; /*Largura*/
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.664); /*criação combreamento*/
+}
+
+div {
+    text-align: center; /*entraliza a imagem e o texto na div*/
+    padding: 10px;
+}
+
+footer {
+    color: white;
+    text-align:  center; /*alinhamento do texto*/
+    font-style: italic; /*estilo*/
+}
