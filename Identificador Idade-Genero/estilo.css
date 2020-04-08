@@ -1,0 +1,33 @@
+body {
+    background: rgb(110, 233, 202);
+    font: normal 18px arial;
+}
+
+header {
+    color: white;
+    text-align: center; /**/
+}
+section {
+    background:  white;
+    border-radius: 10px; /*borda arredondada caixa*/
+    padding: 15px; /*preenchimento, largura*/
+    width: 400px; /*Largura*/
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.664); /*criação combreamento*/
+}
+
+footer {
+    color: white;
+    text-align:  center; /*alinhamento do texto*/
+    font-style: italic; /*estilo*/
+}
+#txtano {
+    background-color: rgba(0, 68, 255, 0.116);
+    border-radius: 5px; 
+}
+
+#button {
+    background-color: rgba(110, 233, 202);
+    border-radius: 5px; 
+    font-style: oblique;
+}
